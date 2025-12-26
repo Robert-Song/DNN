@@ -1,0 +1,7 @@
+Feature,SIFT,SURF,HOG
+Primary Goal,Keypoint Matching (Accuracy),Keypoint Matching (Speed),Object Detection (Shape)
+Rotation Invariant?,Yes,Yes,No
+Scale Invariant?,Yes,Yes,No (requires sliding window)
+Speed,Slow,Fast,Moderate
+Key Algorithm,Difference of Gaussians (DoG),Hessian Matrix / Integral Images,Gradient Histograms
+Typical Use Case,"Panoramas, 3D Modeling",Real-time Tracking,Pedestrian Detection
